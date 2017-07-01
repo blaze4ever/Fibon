@@ -6,6 +6,6 @@ namespace Fibon.Service.Controllers
         {
             [HttpGet("")]
             public IActionResult Get()
-            => Content("Hello from Fibon api");
+            => Content("Hello from Fibon Service");
         }
 }
